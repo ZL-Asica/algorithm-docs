@@ -17,14 +17,14 @@ slug: ./
 
 ### 二维数组题目
 
-| 题号 | 标题                                     | 题解         | 难度 |
-| :--- | :--------------------------------------- | :----------- | :--- |
-| 0498 | [对角线遍历][leetcode/diagonal-traverse] | [Python](./) | 中等 |
-| 0048 | [旋转图像][leetcode/rotate-image]        | [Python](./) | 中等 |
-| 0073 | [矩阵置零][leetcode/set-matrix-zeroes]   | [Python](./) | 中等 |
-| 0054 | [螺旋矩阵][leetcode/spiral-matrix]       | [Python](./) | 中等 |
-| 0059 | [螺旋矩阵 II][leetcode/spiral-matrix-ii] | [Python](./) | 中等 |
-| 0289 | [生命游戏][leetcode/game-of-life]        | [Python](./) | 中等 |
+| 题号 | 标题                                                          | 题解                                                          | 难度 |
+| :--- | :------------------------------------------------------------ | :------------------------------------------------------------ | :--- |
+| 0498 | [Diagonal Traverse（对角线遍历）][leetcode/diagonal-traverse] | [Python](./02-2D-Array-Questions/01-498-Diagonal_Traverse.md) | 中等 |
+| 0048 | [旋转图像][leetcode/rotate-image]                             | [Python](./)                                                  | 中等 |
+| 0073 | [矩阵置零][leetcode/set-matrix-zeroes]                        | [Python](./)                                                  | 中等 |
+| 0054 | [螺旋矩阵][leetcode/spiral-matrix]                            | [Python](./)                                                  | 中等 |
+| 0059 | [螺旋矩阵 II][leetcode/spiral-matrix-ii]                      | [Python](./)                                                  | 中等 |
+| 0289 | [生命游戏][leetcode/game-of-life]                             | [Python](./)                                                  | 中等 |
 
 <!-- 数组操作 -->
 
