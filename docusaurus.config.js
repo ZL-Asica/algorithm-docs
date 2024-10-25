@@ -88,7 +88,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © 2024-${new Date().getFullYear()} ZL Asica. Built with Docusaurus.`,
+        // hyper link in copyright
+        copyright: `© 2024-${new Date().getFullYear()} ZL Asica. Built with Docusaurus.<br/>Licensed under <a href='https://creativecommons.org/licenses/by-sa/4.0/' title="License" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>`,
       },
       prism: {
         theme: prismThemes.github,
