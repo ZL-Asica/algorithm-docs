@@ -1,47 +1,21 @@
 ---
-sidebar_position: 1
+title: 笔记简介
+description: ZLA Algo网站的简单介绍和思路，你可以在这个网站中看到的内容和找到的内容的一个大致概述。
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+## 这是什么
 
-Let's discover **Docusaurus in less than 5 minutes**.
+ZL Asica的个人Leetcode刷题记录，主要是按照目录中的不同类别的题目进行的分类，基本都是以Python作为主要语言的题解。只保留最优解，显然我在做的时候一开始大概率不是最优解都是慢慢优化出来的。
 
-## Getting Started
+## 为什么有这个
 
-Get started by **creating a new site**.
+很简单，光刷题不记录，总会有一天刷到重复的题但是没有思路。别人的题解都很好，但自己的永远是最适合自己的。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 我想纠错
 
-### What you'll need
+欢迎！我在写的时候写出typo是很正常的，欢迎纠错，请直接上我的repo[提交issue](https://github.com/ZL-Asica/algorithm-docs/issues)。
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 你这网站？
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+网站前端使用的Docusaurus框架，题解全部使用markdown编写，其中包含部分$Latex$的部分。源代码托管于右上角的这个Github Repo里，你现在所能看到的网站内容全部托管于Cloudflare Pages。
