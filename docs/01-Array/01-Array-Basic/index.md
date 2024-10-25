@@ -9,8 +9,8 @@ slug: ./
 
 | 题号 | 标题                                                                                | 题解                                                              | 标签               | 难度 |
 | :--- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------- | :----------------- | :--- |
-| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/)                             | [Python](./01-Array-Operation-Questions/01-189.Rotate%20Array.md) | 数组、数学、双指针 | 中等 |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/)                                     | [Python](./)                                                      | 数组、数学         | 简单 |
+| 0189 | [Rotate Array（轮转数组）](https://leetcode.com/problems/rotate-array/)             | [Python](./01-Array-Operation-Questions/01-189.Rotate%20Array.md) | 数组、数学、双指针 | 中等 |
+| 0066 | [Plus One（加一）](https://leetcode.com/problems/plus-one/)                         | [Python](./01-Array-Operation-Questions/02-66.Plus%20One.md)      | 数组、数学         | 简单 |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/)               | [Python](./)                                                      | 数组、前缀和       | 简单 |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/)            | [Python](./)                                                      | 数组               | 简单 |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./)                                                      | 数组、前缀和       | 中等 |
