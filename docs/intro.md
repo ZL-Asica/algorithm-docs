@@ -14,7 +14,7 @@ ZL Asica的个人Leetcode刷题记录，主要是按照目录中的不同类别�
 
 ## 我想纠错
 
-欢迎！我在写的时候写出typo是很正常的，欢迎纠错，请直接上我的repo[提交issue](https://github.com/ZL-Asica/algorithm-docs/issues)。
+欢迎！我在写的时候写出typo是很正常的，欢迎纠错，请直接上我的repo[提交issue](https://github.com/ZL-Asica/algorithm-docs/issues)。如果你会提交PR的话，可以点左下角那个**编辑此页**直接提交一个PR给我就好，纯typo我很快就可以给你approve。
 
 ## 你这网站？
 
