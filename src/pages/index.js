@@ -14,7 +14,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className={clsx('button button--primary', styles.readNotesButton)}
-            to="/docs/intro">
+            to="/docs/intro"
+          >
             阅读笔记
           </Link>
         </div>
@@ -28,7 +29,8 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="LeetCode题解和算法思路的总结和笔记">
+      description="LeetCode题解和算法思路的总结和笔记"
+    >
       <HomepageHeader />
       <main className={styles.mainContent}>
         {/* Maybe add latest doc here */}
