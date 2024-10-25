@@ -7,24 +7,24 @@ slug: ./
 
 ### 数组操作题目
 
-| 题号 | 标题                                                          | 题解                                                              | 标签               | 难度 |
-| :--- | :------------------------------------------------------------ | :---------------------------------------------------------------- | :----------------- | :--- |
-| 0189 | [Rotate Array（轮转数组）][leetcode/rotate-array]             | [Python](./01-Array-Operation-Questions/01-189.Rotate%20Array.md) | 数组、数学、双指针 | 中等 |
-| 0066 | [Plus One（加一）][leetcode/plus-one]                         | [Python](./01-Array-Operation-Questions/02-66.Plus%20One.md)      | 数组、数学         | 简单 |
-| 0724 | [寻找数组的中心下标][leetcode/find-pivot-index]               | [Python](./)                                                      | 数组、前缀和       | 简单 |
-| 0485 | [最大连续 1 的个数][leetcode/max-consecutive-ones]            | [Python](./)                                                      | 数组               | 简单 |
-| 0238 | [除自身以外数组的乘积][leetcode/product-of-array-except-self] | [Python](./)                                                      | 数组、前缀和       | 中等 |
+| 题号 | 标题                                                                                          | 题解                                                                            | 难度 |
+| :--- | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ | :--- |
+| 0189 | [Rotate Array（轮转数组）][leetcode/rotate-array]                                             | [Python](./01-Array-Operation-Questions/01-189-Rotate_Array.md)                 | 中等 |
+| 0066 | [Plus One（加一）][leetcode/plus-one]                                                         | [Python](./01-Array-Operation-Questions/02-66-Plus_One.md)                      | 简单 |
+| 0724 | [Find Pivot Index（寻找数组的中心下标）][leetcode/find-pivot-index]                           | [Python](./01-Array-Operation-Questions/03-724-Find_Pivot_Index.md)             | 简单 |
+| 0485 | [Max Consecutive Ones（最大连续 1 的个数）][leetcode/max-consecutive-ones]                    | [Python](./01-Array-Operation-Questions/04-485-Max_Consecutive_Ones.md)         | 简单 |
+| 0238 | [Product of Array Except Self（除自身以外数组的乘积）][leetcode/product-of-array-except-self] | [Python](./01-Array-Operation-Questions/05-238-Product_of_Array_Except_Self.md) | 中等 |
 
 ### 二维数组题目
 
-| 题号 | 标题                                     | 题解         | 标签               | 难度 |
-| :--- | :--------------------------------------- | :----------- | :----------------- | :--- |
-| 0498 | [对角线遍历][leetcode/diagonal-traverse] | [Python](./) | 数组、矩阵、模拟   | 中等 |
-| 0048 | [旋转图像][leetcode/rotate-image]        | [Python](./) | 数组、数学、矩阵   | 中等 |
-| 0073 | [矩阵置零][leetcode/set-matrix-zeroes]   | [Python](./) | 数组、哈希表、矩阵 | 中等 |
-| 0054 | [螺旋矩阵][leetcode/spiral-matrix]       | [Python](./) | 数组、矩阵、模拟   | 中等 |
-| 0059 | [螺旋矩阵 II][leetcode/spiral-matrix-ii] | [Python](./) | 数组、矩阵、模拟   | 中等 |
-| 0289 | [生命游戏][leetcode/game-of-life]        | [Python](./) | 数组、矩阵、模拟   | 中等 |
+| 题号 | 标题                                     | 题解         | 难度 |
+| :--- | :--------------------------------------- | :----------- | :--- |
+| 0498 | [对角线遍历][leetcode/diagonal-traverse] | [Python](./) | 中等 |
+| 0048 | [旋转图像][leetcode/rotate-image]        | [Python](./) | 中等 |
+| 0073 | [矩阵置零][leetcode/set-matrix-zeroes]   | [Python](./) | 中等 |
+| 0054 | [螺旋矩阵][leetcode/spiral-matrix]       | [Python](./) | 中等 |
+| 0059 | [螺旋矩阵 II][leetcode/spiral-matrix-ii] | [Python](./) | 中等 |
+| 0289 | [生命游戏][leetcode/game-of-life]        | [Python](./) | 中等 |
 
 <!-- 数组操作 -->
 

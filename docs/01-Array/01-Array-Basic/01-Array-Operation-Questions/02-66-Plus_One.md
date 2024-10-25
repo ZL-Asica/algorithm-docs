@@ -2,10 +2,11 @@
 title: '66. Plus One (加一)'
 description: 'You are given a large integer represented as an integer array digit, where each digits[i] is the i^{th} digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0'
 keywords:
-  - array
+  - algorithms
   - leetcode
+  - array
   - math
-slug: 66-plus-one
+slug: /problems/plus-one
 ---
 
 题目链接：

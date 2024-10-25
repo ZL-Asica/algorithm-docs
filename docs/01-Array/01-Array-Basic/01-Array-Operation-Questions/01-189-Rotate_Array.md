@@ -2,11 +2,12 @@
 title: '189. Rotate Array (轮转数组)'
 description: 'Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.'
 keywords:
-  - array
+  - algorithms
   - leetcode
+  - array
   - rotate array
   - math
-slug: 188-rotate-array
+slug: /problems/rotate-array
 ---
 
 题目链接：
