@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ZL-Asica', // Usually your GitHub org/user name.
-  projectName: 'algorithm-docs', // Usually your repo name.
+  projectName: 'ZLA-Algo', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,7 +47,7 @@ const config = {
           rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/ZL-Asica/algorithm-docs/edit/main/',
+          editUrl: 'https://github.com/ZL-Asica/ZLA-Algo/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/avatar.jpg',
       navbar: {
         title: 'ZLA Algo',
         // logo: {
@@ -80,7 +80,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/ZL-Asica/algorithm-docs',
+            href: 'https://github.com/ZL-Asica/ZLA-Algo',
             label: 'GitHub',
             position: 'right',
           },
