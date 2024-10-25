@@ -3,21 +3,55 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
+ .introSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background-color: var(--ifm-background-color);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.siteTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.siteSubtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.readNotesButton {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 1.5rem 2.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.readNotesButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.mainContent {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: var(--ifm-color-content);
 }

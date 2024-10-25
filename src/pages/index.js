@@ -2,29 +2,24 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-// import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <section className={styles.introSection}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className={styles.siteTitle}>{siteConfig.title}</h1>
+        <p className={styles.siteSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className={clsx('button button--primary', styles.readNotesButton)}
             to="/docs/intro">
-            立即开始
+            阅读笔记
           </Link>
         </div>
       </div>
-    </header>
+    </section>
   );
 }
 
@@ -32,12 +27,12 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description="LeetCode题解和算法思路的总结和笔记">
       <HomepageHeader />
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
+      <main className={styles.mainContent}>
+        {/* Maybe add latest doc here */}
+      </main>
     </Layout>
   );
 }
