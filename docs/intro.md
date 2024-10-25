@@ -16,6 +16,15 @@ ZL Asica的个人Leetcode刷题记录，主要是按照目录中的不同类别�
 
 欢迎！我在写的时候写出typo是很正常的，欢迎纠错，请直接上我的repo[提交issue](https://github.com/ZL-Asica/algorithm-docs/issues)。如果你会提交PR的话，可以点左下角那个**编辑此页**直接提交一个PR给我就好，纯typo我很快就可以给你approve。
 
-## 你这网站？
+## 网站架构
 
-网站前端使用的Docusaurus框架，题解全部使用markdown编写，其中包含部分$Latex$的部分。源代码托管于右上角的这个Github Repo里，你现在所能看到的网站内容全部托管于Cloudflare Pages。
+网站前端使用的Docusaurus框架，题解全部使用markdown编写，其中包含部分${\LaTeX}$的部分。源代码托管于右上角的这个Github Repo里，你现在所能看到的网站内容全部托管于Cloudflare Pages。
+
+## 转载相关
+
+网站全部文章均采用[CC BY-SA 4.0][cc-by-sa]进行许可，请在遵循协议的前提下进行转载并注明出处。
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
