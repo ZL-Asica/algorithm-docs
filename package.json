@@ -12,8 +12,9 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "prettier-fix": "prettier --write .",
-    "lint-staged": "lint-staged"
+    "format": "prettier --write .",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
@@ -36,7 +37,7 @@
     "prettier": "3.3.3"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "npx prettier --write"
   },
   "browserslist": {
     "production": [
