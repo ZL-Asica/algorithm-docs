@@ -107,16 +107,56 @@ const config = {
         maxHeadingLevel: 5,
       },
       metadata: [
-        { name: 'keywords', content: 'leetcode, algorithms, solutions, coding, data structures' },
-        { name: 'description', content: 'Explore LeetCode problem-solving strategies, categorized solutions, and coding tips.' },
+        {
+          name: 'keywords',
+          content: 'leetcode, algorithms, solutions, coding, data structures',
+        },
+        {
+          name: 'description',
+          content:
+            'Explore LeetCode problem-solving strategies, categorized solutions, and coding tips.',
+        },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:site', content: '@ZL_Asica' },
         { property: 'og:title', content: 'LeetCode Solutions & Algorithms' },
-        { property: 'og:description', content: 'Explore categorized solutions and strategies for LeetCode problems.' },
+        {
+          property: 'og:description',
+          content:
+            'Explore categorized solutions and strategies for LeetCode problems.',
+        },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://algo.zla.app/img/avatar.jpg' },
+        {
+          property: 'og:image',
+          content: 'https://algo.zla.app/img/avatar.jpg',
+        },
         { property: 'og:url', content: 'https://algo.zla.app' },
       ],
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'P3CJHXM6B2',
+
+        // Public API key: it is safe to commit it
+        apiKey: '7b5401f7147b9a27805452d15899bca1',
+
+        indexName: 'ZLA_Algo_Index',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: false,
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+
+        //... other Algolia params
+      },
     }),
   stylesheets: [
     {
