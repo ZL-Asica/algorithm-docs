@@ -1,9 +1,9 @@
 ---
-title: Array（数组）
+title: Array Basic（数组基础知识）
 slug: ./
 ---
 
-### 数组操作题目
+## 数组操作题目
 
 | 题号 | 标题                                                                                          | 题解                                                                            | 难度 |
 | :--- | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ | :--- |
@@ -13,7 +13,7 @@ slug: ./
 | 0485 | [Max Consecutive Ones（最大连续 1 的个数）][leetcode/max-consecutive-ones]                    | [Python](./01-Array-Operation-Questions/04-485-Max_Consecutive_Ones.md)         | 简单 |
 | 0238 | [Product of Array Except Self（除自身以外数组的乘积）][leetcode/product-of-array-except-self] | [Python](./01-Array-Operation-Questions/05-238-Product_of_Array_Except_Self.md) | 中等 |
 
-### 二维数组题目
+## 二维数组题目
 
 | 题号 | 标题                                                          | 题解                                                          | 难度 |
 | :--- | :------------------------------------------------------------ | :------------------------------------------------------------ | :--- |
