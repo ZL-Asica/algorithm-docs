@@ -42,6 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -49,6 +50,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/ZL-Asica/ZLA-Algo/edit/main/',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -76,8 +78,12 @@ const config = {
           },
           {
             href: 'https://www.zla.app',
-            label: '博客（外站）',
+            label: '博客',
             position: 'left',
+          },
+          {
+            type: 'search',
+            position: 'right',
           },
           {
             href: 'https://github.com/ZL-Asica/ZLA-Algo',
@@ -100,6 +106,17 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,
       },
+      metadata: [
+        { name: 'keywords', content: 'leetcode, algorithms, solutions, coding, data structures' },
+        { name: 'description', content: 'Explore LeetCode problem-solving strategies, categorized solutions, and coding tips.' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@ZL_Asica' },
+        { property: 'og:title', content: 'LeetCode Solutions & Algorithms' },
+        { property: 'og:description', content: 'Explore categorized solutions and strategies for LeetCode problems.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'https://algo.zla.app/img/avatar.jpg' },
+        { property: 'og:url', content: 'https://algo.zla.app' },
+      ],
     }),
   stylesheets: [
     {
@@ -108,6 +125,11 @@ const config = {
       integrity:
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
+    },
+    {
+      // Use preconnect to optimize loading of Google Fonts
+      href: 'https://fonts.googleapis.com',
+      rel: 'preconnect',
     },
   ],
 };
