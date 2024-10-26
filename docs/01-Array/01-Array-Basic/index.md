@@ -24,7 +24,7 @@ slug: ./
 | 0073 | [Set Matrix Zeros（矩阵置零）][leetcode/set-matrix-zeroes]    | [Python](./02-2D-Array-Questions/03-73-Set_Matrix_Zeroes.md)  | 中等 |
 | 0054 | [Spiral Matrix（螺旋矩阵）][leetcode/spiral-matrix]           | [Python](./02-2D-Array-Questions/04-54-Spiral_Matrix.md)      | 中等 |
 | 0059 | [Spiral Matrix II（螺旋矩阵 II）][leetcode/spiral-matrix-ii]  | [Python](./02-2D-Array-Questions/05-59-Spiral_Matrix_II.md)   | 中等 |
-| 0289 | [Game of Life（生命游戏）][leetcode/game-of-life]             | [Python](./)                                                  | 中等 |
+| 0289 | [Game of Life（生命游戏）][leetcode/game-of-life]             | [Python](./02-2D-Array-Questions/06-289-Game_of_Life.md)      | 中等 |
 
 <!-- 数组操作 -->
 
