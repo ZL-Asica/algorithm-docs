@@ -16,7 +16,7 @@ slug: /problems/spiral-matrix
 
 > Difficulty: Medium
 >
-> Topics: Array, Hash Table, Matrix
+> Topics: Array, Matrix, Simulation
 
 ## Question
 
