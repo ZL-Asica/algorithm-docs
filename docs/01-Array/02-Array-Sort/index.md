@@ -8,13 +8,13 @@ slug: ./
 | 题号          | 标题                                 | 题解                                                                 | 难度 |
 | :------------ | :----------------------------------- | :------------------------------------------------------------------- | :--- |
 | 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]      | [Python](./Questions/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
-| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./Questions/02-Move-Zeros.md)                               | 简单 |
+| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./Questions/02-Move_Zeros.md)                               | 简单 |
 
 ## b. 选择排序题目
 
-| 题号 | 标题                                                                                        | 题解         | 难度 |
-| :--- | :------------------------------------------------------------------------------------------ | :----------- | :--- |
-| 0215 | [Kth Largest Element in an Array（数组中的第K个最大元素）][kth-largest-element-in-an-array] | [Python](./) | 中等 |
+| 题号 | 标题                                                                                        | 题解                                                        | 难度 |
+| :--- | :------------------------------------------------------------------------------------------ | :---------------------------------------------------------- | :--- |
+| 0215 | [Kth Largest Element in an Array（数组中的第K个最大元素）][kth-largest-element-in-an-array] | [Python](./Questions/03-Kth_Largest_Element_in_an_Array.md) | 中等 |
 
 ## c. 插入排序题目
 
@@ -47,11 +47,11 @@ slug: ./
 
 ## g. 堆排序题目
 
-| 题号          | 标题                                                                                        | 题解         | 难度 |
-| :------------ | :------------------------------------------------------------------------------------------ | :----------- | :--- |
-| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                  | [Python](./) | 中等 |
-| 0215          | [Kth Largest Element in an Array（数组中的第K个最大元素）][kth-largest-element-in-an-array] | [Python](./) | 中等 |
-| 剑指 Offer 40 | [最小的k个数][zui-xiao-de-kge-shu-lcof]                                                     | [Python](./) | 简单 |
+| 题号          | 标题                                                                                        | 题解                                                        | 难度 |
+| :------------ | :------------------------------------------------------------------------------------------ | :---------------------------------------------------------- | :--- |
+| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                  | [Python](./)                                                | 中等 |
+| 0215          | [Kth Largest Element in an Array（数组中的第K个最大元素）][kth-largest-element-in-an-array] | [Python](./Questions/03-Kth_Largest_Element_in_an_Array.md) | 中等 |
+| 剑指 Offer 40 | [最小的k个数][zui-xiao-de-kge-shu-lcof]                                                     | [Python](./)                                                | 简单 |
 
 ## h. 计数排序题目
 
