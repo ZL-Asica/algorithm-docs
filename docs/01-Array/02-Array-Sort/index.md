@@ -8,7 +8,7 @@ slug: ./
 | 题号          | 标题                                 | 题解                                                                      | 难度 |
 | :------------ | :----------------------------------- | :------------------------------------------------------------------------ | :--- |
 | 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]      | [Python](./01-Bubble-Sort/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
-| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./)                                                              | 简单 |
+| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./01-Bubble-Sort/02-Move-Zeros.md)                               | 简单 |
 
 ## b. 选择排序题目
 
