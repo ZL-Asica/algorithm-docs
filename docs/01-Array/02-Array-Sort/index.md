@@ -5,10 +5,10 @@ slug: ./
 
 ## a. 冒泡排序题目
 
-| 题号          | 标题                                 | 题解                                                                      | 难度 |
-| :------------ | :----------------------------------- | :------------------------------------------------------------------------ | :--- |
-| 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]      | [Python](./01-Bubble-Sort/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
-| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./01-Bubble-Sort/02-Move-Zeros.md)                               | 简单 |
+| 题号          | 标题                                 | 题解                                                                 | 难度 |
+| :------------ | :----------------------------------- | :------------------------------------------------------------------- | :--- |
+| 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]      | [Python](./Questions/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
+| 0283          | [Move Zeroes（移动零）][move-zeroes] | [Python](./Questions/02-Move-Zeros.md)                               | 简单 |
 
 ## b. 选择排序题目
 
@@ -77,14 +77,14 @@ slug: ./
 
 ## k. 其他排序题目
 
-| 题号          | 标题                                                     | 题解         | 难度 |
-| :------------ | :------------------------------------------------------- | :----------- | :--- |
-| 0217          | [Contains Duplicate（存在重复元素）][contains-duplicate] | [Python](./) | 简单 |
-| 0136          | [Single Number（只出现一次的数字）][single-number]       | [Python](./) | 简单 |
-| 0056          | [Merge Intervals（合并区间）][merge-intervals]           | [Python](./) | 中等 |
-| 0179          | [Largest Number（最大数）][largest-number]               | [Python](./) | 中等 |
-| 0384          | [Shuffle an Array（打乱数组）][shuffle-an-array]         | [Python](./) | 中等 |
-| 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]                          | [Python](./) | 中等 |
+| 题号          | 标题                                                     | 题解                                                                 | 难度 |
+| :------------ | :------------------------------------------------------- | :------------------------------------------------------------------- | :--- |
+| 0217          | [Contains Duplicate（存在重复元素）][contains-duplicate] | [Python](./)                                                         | 简单 |
+| 0136          | [Single Number（只出现一次的数字）][single-number]       | [Python](./)                                                         | 简单 |
+| 0056          | [Merge Intervals（合并区间）][merge-intervals]           | [Python](./)                                                         | 中等 |
+| 0179          | [Largest Number（最大数）][largest-number]               | [Python](./)                                                         | 中等 |
+| 0384          | [Shuffle an Array（打乱数组）][shuffle-an-array]         | [Python](./)                                                         | 中等 |
+| 剑指 Offer 45 | [把数组排成最小的数][bszpczxds]                          | [Python](./Questions/01-ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.md) | 中等 |
 
 <!-- 冒泡排序题目 -->
 
