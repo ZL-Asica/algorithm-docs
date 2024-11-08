@@ -8,13 +8,13 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <section className={styles.introSection}>
-      <div className="container">
+      <div className='container'>
         <h1 className={styles.siteTitle}>{siteConfig.title}</h1>
         <p className={styles.siteSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className={clsx('button button--primary', styles.readNotesButton)}
-            to="/intro"
+            to='/intro'
           >
             阅读笔记
           </Link>
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="LeetCode题解和算法思路的总结和笔记"
+      description='LeetCode题解和算法思路的总结和笔记'
     >
       <HomepageHeader />
       <main className={styles.mainContent}>
