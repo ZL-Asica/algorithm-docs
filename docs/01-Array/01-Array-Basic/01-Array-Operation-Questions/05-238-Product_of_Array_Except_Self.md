@@ -55,53 +55,6 @@ Output: [0, 0, 9, 0, 0];
 
 #### 思路
 
-非常直接的想法，先求出list中所有元素的积，然后除掉当前位置的值。但这样的思路会有一个问题，如果元素中存在0将会让整个积为0（除了0本身，因为$answer$的一个位置是所有其他元素的积）；如果0的数量大于1，整个answer所有元素都为0。
-
-- 初始化$product$为1（肯定不是0啊喂），初始化一个叫做$zero$的$boolean$值用来记录是否有超过1个的0。
-- $for$循环遍历整个$nums$列表，如果不是0就乘以到$product$去；如果是0且$zero$已经被标记为$True$的话，直接$return$一个和$nums$一样长的只有0的$list$；如果是0但是$zero$没有被标记的话，标记下来。
-- 初始化一个$answer$空数组。
-- $for$循环再次遍历$nums$，如果$zero$被标记了（只可能是1个0），也就是我们之前说过的除了0这位是product，其他位置都是0。
-  - 如果$zero$没被标记，把当前位置记录为总$product$除以当前位置的值。
-
-#### 代码
-
-```python
-from functools import reduce
-
-class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
-        product = 1
-        zero = False
-        for num in nums:
-            if num != 0:
-                product *= num
-            elif zero:
-                return [0] * len(nums)
-            else:
-                zero = True
-
-        answer = []
-        for num in nums:
-            if zero:
-                if num != 0:
-                    answer.append(0)
-                else:
-                    answer.append(product)
-            else:
-                answer.append(int(product / num))
-        return answer
-
-```
-
-#### 复杂度
-
-- 时间：因为遍历了两遍$nums$，每一次均为$O(n)$，总计时间复杂度为$O(n)$。
-- 空间：除了本来要返回的结果$answer$数组空间为$O(n)$以外，额外消耗的空间只有$product$，也就是$O(1)$的额外空间。
-
-### 方法2:
-
-#### 思路
-
 使用前缀积（Prefix Product）和后缀积（Suffix Product）进行计算。
 
 首先先补充一下背景知识什么是前缀积。对于我们有的一个$array$比如说是$arr$，第1位的前缀积就是1；对于第2位就是第一位的值；对于第3位就是前两位元素的积；以此类推。每一个元素的前缀积都是前面所有元素的乘积。后缀积也是同理，每一位元素的后缀积就是后面所有元素的积。
