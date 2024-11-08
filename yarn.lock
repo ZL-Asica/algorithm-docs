@@ -3137,6 +3137,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zl-asica/prettier-config@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@zl-asica/prettier-config@npm:1.0.5"
+  peerDependencies:
+    prettier: ^3.0.0
+  checksum: 10c0/1c3ba0ad20780cad86232c47f641902dec2ca3721a1e3b7143887f28115cc68ede2939191e20946053d2aa5f31c53c35363f589b0ea3201dcd169ac0b3b733bb
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -3285,6 +3294,7 @@ __metadata:
     "@docusaurus/types": "npm:3.5.2"
     "@mdx-js/react": "npm:^3.0.0"
     "@types/react": "npm:^18.3.12"
+    "@zl-asica/prettier-config": "npm:^1.0.5"
     clsx: "npm:^2.0.0"
     globals: "npm:^15.11.0"
     husky: "npm:^9.1.6"

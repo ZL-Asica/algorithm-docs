@@ -14,7 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "format": "prettier --write .",
     "lint-staged": "lint-staged",
-    "prepare": "husky"
+    "postinstall": "husky"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
@@ -32,13 +32,14 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/types": "3.5.2",
+    "@zl-asica/prettier-config": "^1.0.5",
     "globals": "^15.11.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "prettier": "3.3.3"
   },
   "lint-staged": {
-    "**/*": "npx prettier --write"
+    "**/*": "prettier --write --ignore-unknown"
   },
   "browserslist": {
     "production": [
