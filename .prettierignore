@@ -13,5 +13,7 @@ package-lock.json
 .vscode
 .idea
 .pnp.*
+.yarn
 LICENSE
 LICENSE-CC
+pnpm-lock.yaml

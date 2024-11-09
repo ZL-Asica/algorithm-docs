@@ -83,3 +83,63 @@ class Solution:
 
 - 时间：获取list最大最小值分别是$O(n)$，开辟空间的时候用了$O(m)$（此处的$m$是最大和最小值的差）。之后我们对给定的数组nums进行了一次从头到位的遍历，时间为$O(n)$。最后我们对计数数组进行反向遍历，依旧是$O(m)$。总计就是$O(n + m)$，和计数排序本身的时间复杂度是一样的。
 - 空间：因为我们创建了一个计数数组，长度为$m$，空间消耗为$O(m)$。
+
+### 方法2:
+
+#### 思路
+
+选择最大n个数的时候，除了会想到冒泡排序，当然也会想到堆排序（[Heap Sort](https://en.wikipedia.org/wiki/Heapsort)），那我们就通过堆排序来做这个题。
+
+#### 代码
+
+```python
+class Solution:
+    def findKthLargest(self, nums: [int], k: int) -> int:
+        n = len(nums)
+        # 入堆
+        for i in range(n // 2, -1, -1):
+            self.heapify(nums, n, i)
+
+        # 排序
+        for i in range(n - 1, n - 1 - k, -1):
+            nums[i], nums[0] = nums[0], nums[i]
+            self.heapify(nums, i, 0)
+
+        return nums[-k]
+
+
+    def heapify(self, arr, n, i):
+        largest = i # 初始化largest作为根节点
+        l = 2 * i + 1
+        r = 2 * i + 2
+
+        # 检查是否有左子节点，并且是否比根节点大
+        if l < n and arr[i] < arr[l]:
+            largest = l
+
+        # 然后检查右子节点，是否比左和根都大
+        if r < n and arr[largest] < arr[r]:
+            largest = r
+
+        # 如果有交换，更换根节点
+        if largest != i:
+            arr[i], arr[largest] = arr[largest], arr[i]
+
+            # 递归
+            self.heapify(arr, n, largest)
+```
+
+#### 复杂度
+
+- 时间：虽然我们进行了early stoping，但本质上最坏情况就是把堆排序走完，也就是$O(n \log{n})$。
+- 空间：因为我们是直接对元素组进行排序，并没有使用新的数组，空间为$O(1)$。
+
+### 方法3:
+
+#### 思路
+
+还有一种会考虑到的去取**最大**的k个数的方法，就是快速排序（[Quick Sort](https://en.wikipedia.org/wiki/Quicksort)），快速排序采用的分治策略（[Divide-and-conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)），每一次分组的两个子数组，右侧的所有元素都比左侧的（准确说是中间被挑选出来的基准数）要小，这样我们就可以快速的找到第k大的数了。
+
+#### 代码
+
+#### 复杂度
