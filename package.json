@@ -12,8 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint 'src/**/*.{js,cjs,ts,tsx}'",
-    "lint:fix": "eslint 'src/**/*.{js,cjs,ts,tsx}' --fix",
+    "lint": "eslint 'src/**/*.{js,jsx,mjs,cjs,ts,tsx,mtx}'",
+    "lint:fix": "eslint 'src/**/*.{js,jsx,mjs,cjs,ts,tsx,mtx}' --fix",
     "format": "prettier --write .",
     "lint-staged": "lint-staged",
     "postinstall": "husky"
@@ -39,7 +39,7 @@
     "@types/node": "^22.9.0",
     "@zl-asica/prettier-config": "^1.0.7",
     "babel-preset-minify": "^0.5.2",
-    "eslint-config-zl-asica": "^1.0.17",
+    "eslint-config-zl-asica":"^1.0.18",
     "globals": "^15.12.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
@@ -64,5 +64,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "pnpm@9.12.3"
+  "packageManager": "pnpm@9.13.2"
 }
