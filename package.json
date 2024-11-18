@@ -12,16 +12,16 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint 'src/**/*.{js,cjs,ts,tsx}'",
-    "lint:fix": "eslint 'src/**/*.{js,cjs,ts,tsx}' --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "lint-staged": "lint-staged",
     "postinstall": "husky"
   },
   "dependencies": {
-    "@docusaurus/core": "3.6.1",
-    "@docusaurus/plugin-google-gtag": "^3.6.1",
-    "@docusaurus/preset-classic": "3.6.1",
+    "@docusaurus/core": "3.6.3",
+    "@docusaurus/plugin-google-gtag": "^3.6.3",
+    "@docusaurus/preset-classic": "3.6.3",
     "@mdx-js/react": "^3.0.0",
     "@types/react": "^18.3.12",
     "clsx": "^2.0.0",
@@ -32,26 +32,31 @@
     "remark-math": "6"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.6.1",
-    "@docusaurus/theme-classic": "^3.6.1",
-    "@docusaurus/tsconfig": "^3.6.1",
-    "@docusaurus/types": "3.6.1",
-    "@types/node": "^22.9.0",
-    "@zl-asica/prettier-config": "^1.0.7",
+    "@docusaurus/module-type-aliases": "3.6.3",
+    "@docusaurus/theme-classic": "^3.6.3",
+    "@docusaurus/tsconfig": "^3.6.3",
+    "@docusaurus/types": "3.6.3",
+    "@types/node": "^22.9.3",
+    "@zl-asica/prettier-config": "^1.0.9",
     "babel-preset-minify": "^0.5.2",
-    "eslint-config-zl-asica": "^1.0.17",
+    "eslint-config-zl-asica": "^1.0.19",
     "globals": "^15.12.0",
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.2"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown",
-    "src/**/*": "eslint --fix"
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*.{cjs,mjs,js,json,md,css}": [
+      "prettier --write"
+    ]
   },
   "browserslist": {
     "production": [
-      ">0.5%",
+      ">0.2%",
       "not dead",
       "not op_mini all"
     ],
@@ -64,5 +69,5 @@
   "engines": {
     "node": ">=18.0"
   },
-  "packageManager": "pnpm@9.12.3"
+  "packageManager": "pnpm@9.14.2"
 }

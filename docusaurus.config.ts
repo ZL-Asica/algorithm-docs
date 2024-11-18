@@ -82,7 +82,7 @@ const config: Config = {
           label: '文档',
         },
         {
-          href: 'https://www.zla.app',
+          href: 'https://www.zla.pub',
           label: '博客',
           position: 'left',
         },
@@ -123,7 +123,7 @@ const config: Config = {
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@ZL_Asica' },
-      { property: 'og:title', content: 'LeetCode Solutions & Algorithms' },
+      { property: 'og:title', content: 'ZLA Algo' },
       {
         property: 'og:description',
         content:
