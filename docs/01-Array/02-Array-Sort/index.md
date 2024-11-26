@@ -18,9 +18,9 @@ slug: ./
 
 ## c. 插入排序题目
 
-| 题号 | 标题                                   | 题解         | 难度 |
-| :--- | :------------------------------------- | :----------- | :--- |
-| 0075 | [Sort Colors（颜色分类）][sort-colors] | [Python](./) | 中等 |
+| 题号 | 标题                                   | 题解                                    | 难度 |
+| :--- | :------------------------------------- | :-------------------------------------- | :--- |
+| 0075 | [Sort Colors（颜色分类）][sort-colors] | [Python](./Questions/04-Sort_Colors.md) | 中等 |
 
 ## d. 希尔排序题目
 
@@ -88,60 +88,50 @@ slug: ./
 
 <!-- 冒泡排序题目 -->
 
-[bszpczxds]: https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
-[move-zeroes]: https://leetcode.com/problems/move-zeroes/
-
 <!-- 选择排序题目 -->
-
-[kth-largest-element-in-an-array]: https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 <!-- 插入排序题目 -->
 
-[sort-colors]: https://leetcode.com/problems/sort-colors/
-
 <!-- 希尔排序题目 -->
-
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[relative-ranks]: https://leetcode.com/problems/relative-ranks/
 
 <!-- 归并排序题目 -->
 
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[merge-sorted-array]: https://leetcode.com/problems/merge-sorted-array/
-[szzdnxd]: https://leetcode.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/
-[count-of-smaller-numbers-after-self]: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
-
 <!-- 快速排序题目 -->
-
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[majority-element]: https://leetcode.com/problems/majority-element/
 
 <!-- 堆排序题目 -->
 
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[kth-largest-element-in-an-array]: https://leetcode.com/problems/kth-largest-element-in-an-array/
-[zui-xiao-de-kge-shu-lcof]: https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/
-
 <!-- 计数排序题目 -->
-
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[relative-sort-array]: https://leetcode.com/problems/relative-sort-array/
 
 <!-- 桶排序题目 -->
 
-[sort-an-array]: https://leetcode.com/problems/sort-an-array/
-[contains-duplicate-iii]: https://leetcode.com/problems/contains-duplicate-iii/
-[maximum-gap]: https://leetcode.com/problems/maximum-gap/
-
 <!-- 基数排序题目 -->
-
-[maximum-gap]: https://leetcode.com/problems/maximum-gap/
-[array-partition]: https://leetcode.com/problems/array-partition/
 
 <!-- 其他排序题目 -->
 
+[array-partition]: https://leetcode.com/problems/array-partition/
+[bszpczxds]: https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/
 [contains-duplicate]: https://leetcode.com/problems/contains-duplicate/
-[single-number]: https://leetcode.com/problems/single-number/
-[merge-intervals]: https://leetcode.com/problems/merge-intervals/
+[contains-duplicate-iii]: https://leetcode.com/problems/contains-duplicate-iii/
+[count-of-smaller-numbers-after-self]: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+[kth-largest-element-in-an-array]: https://leetcode.com/problems/kth-largest-element-in-an-array/
+[kth-largest-element-in-an-array]: https://leetcode.com/problems/kth-largest-element-in-an-array/
 [largest-number]: https://leetcode.com/problems/largest-number/
+[majority-element]: https://leetcode.com/problems/majority-element/
+[maximum-gap]: https://leetcode.com/problems/maximum-gap/
+[maximum-gap]: https://leetcode.com/problems/maximum-gap/
+[merge-intervals]: https://leetcode.com/problems/merge-intervals/
+[merge-sorted-array]: https://leetcode.com/problems/merge-sorted-array/
+[move-zeroes]: https://leetcode.com/problems/move-zeroes/
+[relative-ranks]: https://leetcode.com/problems/relative-ranks/
+[relative-sort-array]: https://leetcode.com/problems/relative-sort-array/
 [shuffle-an-array]: https://leetcode.com/problems/shuffle-an-array/
+[single-number]: https://leetcode.com/problems/single-number/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-an-array]: https://leetcode.com/problems/sort-an-array/
+[sort-colors]: https://leetcode.com/problems/sort-colors/
+[szzdnxd]: https://leetcode.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/
+[zui-xiao-de-kge-shu-lcof]: https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/
