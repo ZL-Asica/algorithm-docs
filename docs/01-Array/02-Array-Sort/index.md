@@ -24,49 +24,49 @@ slug: ./
 
 ## d. 希尔排序题目
 
-| 题号 | 标题                                         | 题解         | 难度 |
-| :--- | :------------------------------------------- | :----------- | :--- |
-| 0912 | [Sort an Array（排序数组）][sort-an-array]   | [Python](./) | 中等 |
-| 0506 | [Relative Ranks（相对名次）][relative-ranks] | [Python](./) | 简单 |
+| 题号 | 标题                                         | 题解                                      | 难度 |
+| :--- | :------------------------------------------- | :---------------------------------------- | :--- |
+| 0912 | [Sort an Array（排序数组）][sort-an-array]   | [Python](./Questions/05-Sort_an_Array.md) | 中等 |
+| 0506 | [Relative Ranks（相对名次）][relative-ranks] | [Python](./)                              | 简单 |
 
 ## e. 归并排序题目
 
-| 题号          | 标题                                                                                                     | 题解         | 难度 |
-| :------------ | :------------------------------------------------------------------------------------------------------- | :----------- | :--- |
-| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                               | [Python](./) | 中等 |
-| 0088          | [Merge Sorted Array（合并两个有序数组）][merge-sorted-array]                                             | [Python](./) | 简单 |
-| 剑指 Offer 51 | [数组中的逆序对][szzdnxd]                                                                                | [Python](./) | 困难 |
-| 0315          | [Count of Smaller Numbers After Self（计算右侧小于当前元素的个数）][count-of-smaller-numbers-after-self] | [Python](./) | 困难 |
+| 题号          | 标题                                                                                                     | 题解                                      | 难度 |
+| :------------ | :------------------------------------------------------------------------------------------------------- | :---------------------------------------- | :--- |
+| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                               | [Python](./Questions/05-Sort_an_Array.md) | 中等 |
+| 0088          | [Merge Sorted Array（合并两个有序数组）][merge-sorted-array]                                             | [Python](./)                              | 简单 |
+| 剑指 Offer 51 | [数组中的逆序对][szzdnxd]                                                                                | [Python](./)                              | 困难 |
+| 0315          | [Count of Smaller Numbers After Self（计算右侧小于当前元素的个数）][count-of-smaller-numbers-after-self] | [Python](./)                              | 困难 |
 
 ## f. 快速排序题目
 
-| 题号 | 标题                                             | 题解         | 难度 |
-| :--- | :----------------------------------------------- | :----------- | :--- |
-| 0912 | [Sort an Array（排序数组）][sort-an-array]       | [Python](./) | 中等 |
-| 0169 | [Majority Element（多数元素）][majority-element] | [Python](./) | 简单 |
+| 题号 | 标题                                             | 题解                                      | 难度 |
+| :--- | :----------------------------------------------- | :---------------------------------------- | :--- |
+| 0912 | [Sort an Array（排序数组）][sort-an-array]       | [Python](./Questions/05-Sort_an_Array.md) | 中等 |
+| 0169 | [Majority Element（多数元素）][majority-element] | [Python](./)                              | 简单 |
 
 ## g. 堆排序题目
 
 | 题号          | 标题                                                                                        | 题解                                                        | 难度 |
 | :------------ | :------------------------------------------------------------------------------------------ | :---------------------------------------------------------- | :--- |
-| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                  | [Python](./)                                                | 中等 |
+| 0912          | [Sort an Array（排序数组）][sort-an-array]                                                  | [Python](./Questions/05-Sort_an_Array.md)                   | 中等 |
 | 0215          | [Kth Largest Element in an Array（数组中的第K个最大元素）][kth-largest-element-in-an-array] | [Python](./Questions/03-Kth_Largest_Element_in_an_Array.md) | 中等 |
 | 剑指 Offer 40 | [最小的k个数][zui-xiao-de-kge-shu-lcof]                                                     | [Python](./)                                                | 简单 |
 
 ## h. 计数排序题目
 
-| 题号 | 标题                                                         | 题解         | 难度 |
-| :--- | :----------------------------------------------------------- | :----------- | :--- |
-| 0912 | [Sort an Array（排序数组）][sort-an-array]                   | [Python](./) | 中等 |
-| 1122 | [Relative Sort Array（数组的相对排序）][relative-sort-array] | [Python](./) | 简单 |
+| 题号 | 标题                                                         | 题解                                      | 难度 |
+| :--- | :----------------------------------------------------------- | :---------------------------------------- | :--- |
+| 0912 | [Sort an Array（排序数组）][sort-an-array]                   | [Python](./Questions/05-Sort_an_Array.md) | 中等 |
+| 1122 | [Relative Sort Array（数组的相对排序）][relative-sort-array] | [Python](./)                              | 简单 |
 
 ## i. 桶排序题目
 
-| 题号 | 标题                                                                 | 题解         | 难度 |
-| :--- | :------------------------------------------------------------------- | :----------- | :--- |
-| 0912 | [Sort an Array（排序数组）][sort-an-array]                           | [Python](./) | 中等 |
-| 0220 | [Contains Duplicate III（存在重复元素 III）][contains-duplicate-iii] | [Python](./) | 困难 |
-| 0164 | [Maximum Gap（最大间距）][maximum-gap]                               | [Python](./) | 困难 |
+| 题号 | 标题                                                                 | 题解                                      | 难度 |
+| :--- | :------------------------------------------------------------------- | :---------------------------------------- | :--- |
+| 0912 | [Sort an Array（排序数组）][sort-an-array]                           | [Python](./Questions/05-Sort_an_Array.md) | 中等 |
+| 0220 | [Contains Duplicate III（存在重复元素 III）][contains-duplicate-iii] | [Python](./)                              | 困难 |
+| 0164 | [Maximum Gap（最大间距）][maximum-gap]                               | [Python](./)                              | 困难 |
 
 ## j. 基数排序题目
 
