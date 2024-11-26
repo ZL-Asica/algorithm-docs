@@ -138,8 +138,51 @@ class Solution:
 
 #### 思路
 
-还有一种会考虑到的去取**最大**的k个数的方法，就是快速排序（[Quick Sort](https://en.wikipedia.org/wiki/Quicksort)），快速排序采用的分治策略（[Divide-and-conquer](https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm)），每一次分组的两个子数组，右侧的所有元素都比左侧的（准确说是中间被挑选出来的基准数）要小，这样我们就可以快速的找到第k大的数了。
+Python 自己的排序函数（雾）。
 
 #### 代码
 
+```python
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        return sorted(nums, reverse=True)[k-1] # 逆序排序，取第k个（索引为k-1）
+```
+
 #### 复杂度
+
+- 时间：Python 的排序函数是$O(n \log{n})$。
+- 空间：因为我们是直接对元素组进行排序，并没有使用新的数组，空间为$O(1)$。
+
+### 方法4:
+
+#### 思路
+
+使用 `defaultdict` 来统计每个元素出现的频次，找到最大值，反向遍历频次，直到 k 为 0 或负值。
+
+#### 代码
+
+```python
+from collections import defaultdict
+import sys
+
+
+class Solution:
+        def findKthLargest(self, nums: List[int], k: int) -> int:
+            freq = defaultdict(int)  # 会生成一个 {0: 0} 的字典，可以直接记数
+
+            for i in nums:
+                freq[i] += 1  # 记数
+
+            maxElement = max(nums)  # 最大值
+            min_int = -sys.maxsize - 1  # 最小值（负无穷）
+
+            for i in range(maxElement, min_int, -1):
+                k -= freq[i]  # 反向减去频次
+                if k <= 0:  # 直到达到或超过k
+                    return i
+```
+
+#### 复杂度
+
+- 时间：$O(n)$，因为我们遍历了一次数组，找到最大值的时间复杂度是$O(n)$，然后我们对频次进行反向遍历，时间复杂度也是$O(n)$，总计就是$O(n)$。
+- 空间：$O(n)$，因为我们创建了一个字典，长度为$n$，空间消耗为$O(n)$。
